@@ -16,6 +16,9 @@ function App() {
     }
     if (correct) {
       setScore((score) => score + 1);
+    }else{
+      console.log("wrong answer")
+      alert("WRONG ANSWER")
     }
   }
 
